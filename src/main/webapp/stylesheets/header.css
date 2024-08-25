@@ -1,0 +1,115 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+nav li, a, form{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 450;
+  font-size: 16px;
+  color: #d7cfcf;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+
+   justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  top:0;
+  z-index: 99;
+  width:100%;
+}
+
+.part{
+	display: flex;
+	flex-direction: row;
+   justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  position: fixed;
+  top:0;
+  z-index: 99;
+  width:100%;
+	
+}
+
+
+body{
+    padding-top: 110px;
+}
+
+.Navlist{
+  list-style: none;
+  background-color: #ffffff;
+  padding: 13px 0px;
+  border-radius: 30px;
+  box-shadow: 0px 3px 10px  rgb(103, 103, 103);
+}
+
+.Navlist ls{
+  background-color: #ffffff;
+  padding: 13px 0px;
+  border-radius: 20px;
+  display: inline;
+}
+
+.Navlist ls a:hover{
+  background-color: #000000;
+  padding: 13px 18px;
+  border-radius: 20px;
+  display: inline;
+  color: #ffffff;
+}
+
+.Navlist ls a{
+  color: #000000;
+  background-color: #ffffff;
+  padding: 13px 18px;
+  border-radius: 20px;
+}
+
+
+
+
+.button1{
+  padding: 17px 25px;
+  text-align: center;
+  color: #000000;
+  background-color: transparent;
+  font-weight: 600;
+  border-radius: 35px;
+  }
+
+  .button1:hover{
+    padding: 17px 25px;
+    text-align: center;
+    color: #b8b8b8;
+    background-color: #000000;
+    font-weight: 600;
+    border-radius: 35px;
+  }
+
+  .button2{
+    padding: 17px 25px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 30px;
+    font-weight: 500;
+  }
+
+  .button2:hover{
+    padding: 17px 25px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #3b3a3a;
+    border-radius: 30px;
+    font-weight: 500;
+  }

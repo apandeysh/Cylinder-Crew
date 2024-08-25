@@ -1,0 +1,179 @@
+@charset "ISO-8859-1";
+
+
+
+h1, h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        padding: 15px 35px;
+        font-weight: 500;
+        }
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.box{
+    width: 390px;
+    height: 500px;
+    color: black;
+    margin: 15px;
+    box-shadow: 0px 3px 10px  rgb(103, 103, 103);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.CreateB{
+	padding: 17px 25px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #800000;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.CreateB:hover{
+    padding: 17px 25px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #804040;
+    border-radius: 30px;
+    font-weight: 500;
+  }
+  
+  
+  
+.UpdateB{
+	padding: 17px 25px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #004000;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+.UpdateB:hover{
+    padding: 17px 25px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #000080;
+    border-radius: 30px;
+    font-weight: 500;
+  }
+  
+  
+  .ReadB{
+  padding: 17px 25px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #400040;
+    border-radius: 30px;
+    font-weight: 500;
+  }
+  .ReadB:hover{
+    padding: 17px 25px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #400080;
+    border-radius: 30px;
+    font-weight: 500;
+  }
+  
+  
+    .DeleteB{
+  padding: 17px 25px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #804000;
+    border-radius: 30px;
+    font-weight: 500;
+  }
+  .DeleteB:hover{
+    padding: 17px 25px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #808000;
+    border-radius: 30px;
+    font-weight: 500;
+  }
+  
+.box-desc2{
+    padding: 40px 60px;
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.box-desc2 h2{
+    
+    font-size: 35px;
+    padding-bottom: 5px;
+}
+  
+.box-desc2 input[type="number"],[type=text], select, textarea{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
+
+
+.button{
+  	 padding: 10px 30%;
+  }
+
+.desgin{
+	padding-top: 40px;
+}
+
+.box-desc label{
+    padding: 40px 60px;
+    color: black;
+
+}
+        
+        .product-pic{
+            box-sizing: border-box;
+            height: 450px;
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .product-desc{
+            text-align: center;
+            padding: 0px 0px;
+        }
+
+        .product-desc h2{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+        
+.product-desc h3{
+    padding-bottom: 5px;
+}
+
+        .buy{
+        padding: 5px 0px;
+        text-align: center;
+        color: #000000;
+        background-color: #ffffff;
+        font-weight: 500;
+        width: 100%;
+        box-shadow: 0px 3px 10px  rgb(103, 103, 103);
+        }
+        body{
+        	padding-top: 150px;
+        }
